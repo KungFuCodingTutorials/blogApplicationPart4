@@ -218,7 +218,7 @@ app.editPost = async function(){
         imagePreview.src = '/public/images/upload/'+postData.fileName+'.'+postData.fileExtension;
 
 
-        // Build the post upadte object
+        // Build the post update object
         let postCreateForm = document.querySelector('#postEditForm');
         postCreateForm.addEventListener('submit',async function(e){
             e.preventDefault();
